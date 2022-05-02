@@ -56,8 +56,4 @@ catch(exception& e)
     cerr << e.what() << '\n';
     return 1;
 }
-catch(...)
-{
-    cerr << "Unknown exception!!\n";
-    return 2;
-}
+
