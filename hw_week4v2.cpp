@@ -73,9 +73,7 @@ const char number = '8';
 const char name = 'a';
 const char sqrtfun = 's';
 const char powfun = 'p';
-// Keywords
 const string quitkey = "exit";
-// Builtin functions
 const string sqrtkey = "sqrt";
 const string powkey = "pow";
 
