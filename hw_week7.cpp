@@ -90,9 +90,7 @@ int main()
 
 	}
 
-	if (compare(original_points, processed_points) == true)
-		cout << "Congrats, Everything correct";
-	else
+	if (compare(original_points, processed_points) == false)
 		cout << "Something's wrong";
 
 	return 0;
