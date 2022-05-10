@@ -6,12 +6,16 @@
   3.   {
            int la[10];
            for(int i=0;i<10;i++)
-                la[i]=ga[i];
-           cout<<la[i]<<" ";
+           {
+	        la[i]=ga[i];
+                cout<<la[i]<<" ";
+           }
            int* a=new int[n];
            for(int i=0;i<10;i++)
+	   {
                 a[i]=arr[i];
-           cout<<endl;
+                cout<<endl;
+	   }
            for(int i=0;i<10;i++)
                 cout<<a[i]<<" ";
            cout<<endl;
